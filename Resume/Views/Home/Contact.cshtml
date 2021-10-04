@@ -1,0 +1,16 @@
+﻿<div class="hero-image">
+    <div class="hero-text">
+        @using (Html.BeginForm("Message", "Home"))
+        {
+            <form>
+                Name <br> <input type="text" name="name" style="width: 400px;"> <br>
+                Email: <br> <input type="Email" name="email" style="width: 400px;"><br> 
+                Message: <br><textarea name="message" cols="51" rows="5"></textarea><br><br> @*<input type="text" name="message" style="height: 100px; width: 400px;"><br><br>*@
+                <button type="submit" class="btn btn-primary">Send</button><br>
+            </form>
+        }
+
+    </div>
+</div>
+
+
